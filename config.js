@@ -45,8 +45,8 @@ global.APIKeys = { // APIKey Here
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'R E A L - M D'
-  var sticker_author = '               ig\n R E A L'
+  var sticker_name = 'Masa~Bot'
+  var sticker_author = '               ig\n Fardev78'
  } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -68,7 +68,7 @@ const cpack = fs.readFileSync("lib/colong.json")
 const ctickerpack = JSON.parse(cpack)
 if (ctickerpack.cpackname == '') {
   var colong_name = 'sikilinsut olang nylong stikell'
-  var colong_author = 'Ciss 📸\n\n@R E A L'
+  var colong_author = 'Ciss 📸\n\nMasa~Bot'
  } else {
   var colong_name = ctickerpack.cpackname
   var colong_author = ctickerpack.cauthor
@@ -85,11 +85,11 @@ global.pclg = colong_name
 global.aclg = colong_author
 //======================================//
 
-global.wm = '© R E A L'
+global.wm = 'Masa~Bot'
 global.ucpn = ''
 
 //================= Url =================//
-global.linkgc = 'https://chat.whatsapp.com/G0QgvIganFuIZWG5GBkQBv'
+global.linkgc = 'https://fardev78.com'
 global.linkig = 'https://fardev78.com'
 global.linkyt = 'FARDEV45'
 global.linkfb = 'alay ngntod fb fb an'
@@ -117,7 +117,7 @@ global.eror = 'Maaf terjadi kesalahan, silahkan coba lagi nanti'
 //========== Tampilan Bot ===========//
 global.sa = '╭─'
 global.gx = '│✇'
-global.gy = '│•'
+global.gy = '│›'
 global.gz = '│'
 global.sb = '╰────࿐'
 global.kki = '「'
