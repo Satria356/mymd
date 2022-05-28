@@ -15,6 +15,5 @@ handler.help = ['stickerwm'].map(v => v + ' <packname|author>')
 handler.tags = ['sticker', 'premium']
 handler.command = /^(s(tic?k(er)?)?wm)$/i
 
-handler.premium = true 
 
 module.exports = handler
