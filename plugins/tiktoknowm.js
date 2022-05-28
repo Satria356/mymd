@@ -44,7 +44,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
    }
  }
 }
-handler.help = ['tiktok'].map(v => v + ' <url>')
+handler.help = ['tiktoknowm'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^(tt|tiktok)(wm)?(dl)?(down(load)?(er)?)?$/i
 
